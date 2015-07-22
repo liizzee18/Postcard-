@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1719B41B5F1DF6005F82D3 /* 1301702_orig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1719B31B5F1DF6005F82D3 /* 1301702_orig.jpg */; };
+		FD1719B61B5F1DFD005F82D3 /* stock-photo-made-in-texas-stamp-142835008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1719B51B5F1DFD005F82D3 /* stock-photo-made-in-texas-stamp-142835008.jpg */; };
+		FD1719BA1B5F25C7005F82D3 /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1719B91B5F25C7005F82D3 /* images-1.jpg */; };
+		FD1719BE1B5F260A005F82D3 /* CaliforniaMap2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD1719BD1B5F260A005F82D3 /* CaliforniaMap2.jpg */; };
 		FDF41A9A1B5F1A900012525D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF41A991B5F1A900012525D /* AppDelegate.swift */; };
 		FDF41A9C1B5F1A900012525D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF41A9B1B5F1A900012525D /* ViewController.swift */; };
 		FDF41A9F1B5F1A900012525D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF41A9D1B5F1A900012525D /* Main.storyboard */; };
@@ -26,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD1719B31B5F1DF6005F82D3 /* 1301702_orig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1301702_orig.jpg; sourceTree = "<group>"; };
+		FD1719B51B5F1DFD005F82D3 /* stock-photo-made-in-texas-stamp-142835008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stock-photo-made-in-texas-stamp-142835008.jpg"; sourceTree = "<group>"; };
+		FD1719B91B5F25C7005F82D3 /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
+		FD1719BD1B5F260A005F82D3 /* CaliforniaMap2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CaliforniaMap2.jpg; sourceTree = "<group>"; };
 		FDF41A941B5F1A900012525D /* PostCard2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostCard2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF41A981B5F1A900012525D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDF41A991B5F1A900012525D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +98,10 @@
 		FDF41A971B5F1A900012525D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD1719BD1B5F260A005F82D3 /* CaliforniaMap2.jpg */,
+				FD1719B91B5F25C7005F82D3 /* images-1.jpg */,
+				FD1719B31B5F1DF6005F82D3 /* 1301702_orig.jpg */,
+				FD1719B51B5F1DFD005F82D3 /* stock-photo-made-in-texas-stamp-142835008.jpg */,
 				FDF41A981B5F1A900012525D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF41A9F1B5F1A900012525D /* Main.storyboard in Resources */,
+				FD1719B61B5F1DFD005F82D3 /* stock-photo-made-in-texas-stamp-142835008.jpg in Resources */,
+				FD1719BA1B5F25C7005F82D3 /* images-1.jpg in Resources */,
+				FD1719B41B5F1DF6005F82D3 /* 1301702_orig.jpg in Resources */,
 				FDF41AA41B5F1A900012525D /* LaunchScreen.xib in Resources */,
 				FDF41AA11B5F1A900012525D /* Images.xcassets in Resources */,
+				FD1719BE1B5F260A005F82D3 /* CaliforniaMap2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +427,7 @@
 				FDF41AB51B5F1A900012525D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDF41AB61B5F1A900012525D /* Build configuration list for PBXNativeTarget "PostCard2Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +436,7 @@
 				FDF41AB81B5F1A900012525D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
